@@ -1,0 +1,233 @@
+h3 {
+    font-family: 'Pretendard-Thin';
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+
+/* 상단바 */
+
+.menu * {
+    display: inline;
+}
+
+.menu li {
+    margin: 35px;
+}
+
+.menu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu li a.active {
+    color: rgb(75, 0, 130); /* 활성화된 링크의 색상 */
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+} 
+
+/* page 1 */
+
+.one {
+    background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.profile {
+    border-radius: 30%;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.profile img {
+    border-radius: 30%;
+    filter: drop-shadow(10px 6px 6px #c3c3c3);
+}
+
+/* page 2 */
+
+.two img{
+    border-radius: 20%;
+    filter: drop-shadow(10px 6px 6px #c3c3c3);
+}
+
+.intext {
+    float: right;
+    margin-top: 35px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+/* page 3 */
+.three{ color : white;}
+
+h1 {
+    text-align: center;
+}
+
+.lists{
+    text-align: center;
+    font-family: 'Pretendard-Thin';
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Pretendard-Thin';
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.list_img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 7vh; 
+    margin-bottom: 50px;
+    border-radius: 20%;
+}   
+
+.favorites {
+    display:inline-flex;
+    margin-top: 60px;
+}
+
+/* page 4 */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  
+}
+
+.guestbook-container {
+    width: 100%;
+    height: 520px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #A8E6CF, #DCEDC1);
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.guestbook h2{
+    text-align: center;
+}
+
+.guest-write .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.todo-name, .todo-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.todos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-height: 300px; 
+    overflow-y: auto;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.todo-timestamp {
+    font-size: 0.9em;
+    color: #888;
+    margin-left: 10px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .todos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* 5page */
+#contact .sns-links {
+    flex-shrink: 0; /* 우측에 위치할 영역이 너비를 줄이지 않도록 설정 */
+    padding-left: 40px; /* 왼쪽 패딩 조정 */
+   
+}
+
+#contact .sns-links h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contact .sns-links .sns{
+    display: flex;
+}
+#contact .sns-links .sns .snsid{
+    text-align: center;
+    flex:1;
+}
+a {
+    color: black; /* 기본 링크 색상 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+

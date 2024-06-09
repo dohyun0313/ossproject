@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoHyun Park</title>
+    <link rel = "stylesheet" href = "homepage_main.css">
+    <link rel = "stylesheet" href = "homepage_scroll.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/89de62a9c2.js" crossorigin="anonymous"></script>
+    <script src="homepage.js"></script>
+    <script defer src ="../js/todo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="homepage.js"></script>
+</head>
+<body>
+    
+    <div id="container">
+        <header id = "header"> 
+            <nav class ="menu">
+                <ul>
+                    <li><a href = "#home" class="menu-link"> <b>Home</b></a></li>
+                    <li><a href = "#about" class="menu-link"> <b>About</b></a></li>
+                    <li><a href = "#hobby" class="menu-link"> <b>My Hobby</b></a><li>
+                    <li><a href = "#GuestBook" class="menu-link"> <b>Guest Book</b></a></li>
+                    <li><a href = "#contact" class="menu-link"> <b>Contact</b></a></li>
+                </ul>
+            </nav>
+        </header>
+     
+  <div id = "home" class="list">
+      <div class="one">
+        <span class="profile"><img src="1.jpeg" width="500px;" height="500px" alt=""/></span> 
+        <h3><strong>안녕하세요 제 이름은 박도현입니다.</strong> <br>방문해주신분들께 저의 소개를 해드리겠습니다!</h3>
+      </div>
+  </div>
+
+  <div id = "about" class="list">
+      <div class ="two">
+          <img class = "me" src ="2.JPG" alt="" width="450px;" height="500px">
+          <h3 class ="intext"><br><br><br><br>
+            이름 : 박도현<br>
+            나이 : 23살<br>
+            생일 : 3월 13일<br>
+            학력 : 광운대학교 정보융합학부 2학년 재학중<br>
+            거주지 : 경기도 의정부시<br>
+            병역 : 21.04~22.10 병장 만기전역
+
+          </h3>
+      </div>
+  </div>
+  
+  <div id="hobby" class="list">
+      <div class="three">
+          <h1><br><br><br>취미생활</h1>
+          <div class = "favorites">
+              <div class="lists">
+                  <img class = "list_img" src="3.jpeg" alt="">
+                  <h2>헬스</h2>       
+              </div>
+              <div class="lists">
+                  <img class = "list_img" src="4.jpeg" alt="">
+                  <h2>리그오브레전드</h2>
+              </div>
+              <div class="lists">
+                  <img class = "list_img" src="5.png" alt="">
+                  <h2>드라마&영화</h2>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+  <div id="GuestBook" class="list">
+    <div class="guestbook-container">
+        <div class="guestbook">
+            <h2>방명록</h2>
+            <div class="guest-write">                  
+                <div class="container">
+                    <input type="text" class="todo-name" placeholder="name">
+                    <input type="text" class="todo-input" placeholder="content">
+                    <div class="todos-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  
+
+    <div id="contact" class="list">
+        <div class="guestbook-container">
+            <div class="sns-links">
+                <h2>SNS Links<br></h2>
+                <div class = "sns">
+                    <div class="snsid">
+                        <a href="https://www.instagram.com/d.__.h313/" target="_blank"><i class="fa-brands fa-instagram fa-10x"></i></a>
+                        <p>instagram</p>
+                    </div>
+                    <div class="snsid">
+                        <a href="mailto:parkdohyun0313@gmail.com"><i class="fa-regular fa-envelope  fa-10x"></i></a>
+                        <p>Email</p>
+                    </div>
+                    <div class="snsid">
+                        <a href="https://github.com/dohyun0313" target="_blank" ><i class="fa-brands fa-github  fa-10x"></i></a>
+                        <p>Github</p>
+                    </div>
+                                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
